@@ -2,30 +2,40 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-image: url('img/背景图.jpg');
+    background-image: url('images/background.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    text-align: center; /* Center text */
+    text-align: center;
     display: flex;
     flex-direction: column;
-    align-items: center; /* Center items horizontall */
-    justify-content: center; /* Center items vertically */
-    min-height: 100vh; /* Make the body take at least the full viewport height */
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+/* 新增内容容器样式 */
+.content-container {
+    background-color: white; /* 设置容器背景为白色 */
+    padding: 40px; /* 根据需要调整内边距 */
+    width: 80%; /* 根据需要调整宽度 */
+    max-width: 800px; /* 根据需要设置最大宽度 */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* 可选：添加阴影效果 */
+    margin-bottom: 50px; /* 可选：增加底部外边距 */
 }
 
 img {
-    max-width: 100px; /* You can set this size to what fits your design */
+    max-width: 100px;
     height: auto;
     margin: 20px 0;
 }
 
 h1 {
-    font-size: 36px; /* Set font size for main title */
+    font-size: 20px;
     margin: 10px 0;
 }
 
 h2 {
-    font-size: 18px; /* Set font size for other headings */
+    font-size: 10px;
     margin: 10px 0;
 }
